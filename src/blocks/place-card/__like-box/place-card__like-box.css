@@ -1,0 +1,5 @@
+.place-card__like-box{
+    display: flex;
+    flex-direction: column;
+    
+}

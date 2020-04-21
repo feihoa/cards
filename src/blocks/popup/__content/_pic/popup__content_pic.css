@@ -1,0 +1,11 @@
+.popup__content_pic{
+    height: fit-content;
+    height: -moz-max-content;
+    max-width: 80vw;
+    max-height: 80vh;
+    width: fit-content;
+    width: -moz-max-content;
+    padding:0;
+    background-color: transparent;
+
+}
