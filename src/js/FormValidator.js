@@ -1,5 +1,5 @@
 
-class FormValidator {
+export class FormValidator {
 
   handleValidate(event) {
     this.event = event;

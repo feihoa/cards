@@ -1,6 +1,6 @@
 
 
-class UserInfo {
+export class UserInfo {
 
     setUserInfo(name, about) {
 

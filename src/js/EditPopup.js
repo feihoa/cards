@@ -1,4 +1,6 @@
-class EditPopup extends Popup {
+import {Popup} from "./Popup.js";
+
+export class EditPopup extends Popup {
   constructor(elem) {
     super(elem);
 
