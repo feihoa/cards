@@ -1,6 +1,16 @@
 
+import {Api} from "./js/Api.js";
+import {Card} from "./js/Card.js";
+import {CardList} from "./js/CardList.js";
+import {EditPopup} from "./js/EditPopup.js";
+import {FormValidator} from "./js/FormValidator.js";
+import {Loader} from "./js/Loader.js";
+import {PicPopup} from "./js/PicPopup.js";
+import {Popup} from "./js/Popup.js";
+import {UserInfo} from "./js/UserInfo.js";
 
-(function ()  {
+
+export const mainFunc = (function ()  {
 
   const api = new Api({
     baseUrl: 'https://praktikum.tk/cohort9',

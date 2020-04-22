@@ -1,4 +1,6 @@
-class PicPopup extends Popup {
+import {Popup} from "./Popup.js";
+
+export class PicPopup extends Popup {
     constructor(elem) {
       super(elem);
   
@@ -9,8 +11,6 @@ class PicPopup extends Popup {
       const popupPicOpen = document.querySelector('#popupPicOpen')
   
       if (event.target.classList.contains('place-card__image')) {
-        // Надо исправить: вы обращаетесь в классе к переменной объявленной глобально.
-        // передайте переменную в качестве параметров в класс 
         this.open();
         const popupLink = event.target.closest('.place-card__image').getAttribute('style');
   
