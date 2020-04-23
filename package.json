@@ -1,10 +1,10 @@
 {
   "name": "cards",
-  "version": "0.0.1",
-  "description": "Актуальная версия - v0.0.1",
+  "version": "0.0.2",
+  "description": "Актуальная версия - v0.0.2",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
