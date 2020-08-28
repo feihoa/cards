@@ -13,7 +13,7 @@ import {UserInfo} from "./js/UserInfo.js";
 export const mainFunc = (function ()  {
 
   const api = new Api({
-    baseUrl: NODE_ENV === 'development' ? 'http://praktikum.tk/cohort9' : 'https://praktikum.tk/cohort9',
+    baseUrl: NODE_ENV === 'development' ? 'http://nomoreparties.co/cohort9' : 'https://nomoreparties.co/cohort9',
     headers: {
       authorization: '548c5797-a590-40d0-8f9e-48d758ca9ae7',
       'Content-Type': 'application/json'
