@@ -1,4 +1,4 @@
-# https://Maliiya.github.io/cards/
+# https://feihoa.github.io/cards/
 
 Актуальная версия - v0.0.2
 
